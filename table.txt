@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!--
+    author: Tiffany Groves
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory by Tiffany Groves</title>
+
+    <link rel="stylesheet" type="text/css" href="TGstyleSheet.css"> 
+
+</head>
+
+<body>
+
+
+<table border = "1" cellspacing = "3em">
+    <tr>
+        <th rowspan = "3">a</th>
+        <th colspan = "2">b</th>
+        <th rowspan = "3">e</th>
+    </tr>
+    <tr>
+        <th rowspan = "2">c</th>
+        <th>d</th>
+    </tr>
+    <tr>
+        <th>f</th>
+    </tr>
+</table>
+
+</body>
+
+</html>

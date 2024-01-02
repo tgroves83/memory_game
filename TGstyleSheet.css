@@ -1,0 +1,118 @@
+/*
+    author: Tiffany Groves
+    page: ExternalStyleSheet
+*/
+
+body
+{
+    
+    background-image: url("BikiniBottomCover.jpg");
+    background-color: #0000ff;
+    background-size: cover;
+}
+h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #800080;
+    font-size: 40px;
+    padding-top: 50px;
+    line-height: 0%;
+}
+
+h2
+{
+	height: 0;
+}
+
+.card:hover
+{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.459);
+}
+img
+{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+section
+{
+	background-color: transparent;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container
+{
+    height: 500px;
+    width: 40%;
+    position: relative;
+	display: grid;
+	grid-template-columns: 60px 60px 60px 60px 60px 60px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px;
+    border: transparent;
+    padding-top: 10px;
+    margin: 2vh auto;
+    padding-left: 13%;
+}
+
+.card
+{
+    height: 60px;
+    width: 50px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    perspective: 90px;
+    cursor: pointer;
+}
+
+.flipCard
+{
+    transform: rotateY(180deg);
+}
+
+.cardFace
+{
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    border-color: #8b0000;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+}
+
+.cardFront 
+{
+    background-color: #ffff00;
+    background-size: 100%;
+    
+}
+
+.cardFace .cardBack img
+{
+    height: 60px;
+    width: 50px;
+}
+
+.cardBack 
+{
+    background-color: #ffff00;
+    transform: rotateY(180deg);
+}
