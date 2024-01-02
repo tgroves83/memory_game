@@ -1,3 +1,5 @@
+window.addEventListener('load', shuffleCards);
+
 //Assign variable card to each div named .card
 const card = document.querySelectorAll('.card');
 
